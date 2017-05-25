@@ -40,7 +40,7 @@ function Model(precision, name) {
     this.tableauInitialized = false;
     this.relaxationIndex = 1;
 
-    this.useMIRCuts = true;
+    this.useMIRCuts = false;
 
     this.checkForCycles = false;
 }
